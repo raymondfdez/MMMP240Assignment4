@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        #logo {
+            font-family: 'Hachi Maru Pop', cursive;
+           padding: 15px 23px;
+        }
+        #logo a {
+            text-decoration: none;
+            color: #d1a53f;
+        }
+        #mbtn {
+            display: none;
+        }
+        header {
+            box-shadow: 0em 1em 1em 0em rgb(0 0 0 / 50%);
+            position: fixed;
+            width: 100%;
+            height: 70px;
+            top: 0px;
+            background: black;
+            
+        }
+        nav {
+            position: absolute;
+            right: 55px;
+            top: 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        nav li ul {
+            display: none;
+        }
+
+        nav li:hover ul {
+            display: block;
+        }
+
+        nav li ul li {
+           display: block;
+        }
+
+        nav a {
+            display: block;
+            border: 3px solid #fff;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            width: 100px;
+            background: black;
+            border-radius: 10px;
+        }
+
+        nav a:hover {
+            color: black;
+            background: #d1a53f;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    
+    <header>
+        <div id="logo">
+            <h1><a>PlaygrounD</a></h1>
+        </div>
+        <button id="mbtn">&#9776;</button>
+        <nav>
+           <ul>
+                <li><a>Home</a></li>
+                <li><a>Services</a>
+                                    </li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+ 
+    
+</body>
+</html>
+
